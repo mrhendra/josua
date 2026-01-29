@@ -2,51 +2,52 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Website Sederhana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Nusantara | Berita Terkini</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <header>
-        <div class="logo">MyWebsite</div>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Tentang</a>
-            <a href="#">Layanan</a>
-            <a href="#">Kontak</a>
-        </nav>
-    </header>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">MediaNusantara</div>
+    <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Nasional</a></li>
+        <li><a href="#">Teknologi</a></li>
+        <li><a href="#">Pendidikan</a></li>
+        <li><a href="#">Kontak</a></li>
+    </ul>
+</nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Selamat Datang di Website Saya</h1>
-        <p>Website sederhana menggunakan HTML dan CSS</p>
-        <button>Mulai</button>
-    </section>
+<!-- HEADER -->
+<header class="hero">
+    <h1>Berita Terkini & Terpercaya</h1>
+    <p>Menyajikan informasi aktual, akurat, dan berimbang</p>
+</header>
 
-    <!-- Content -->
-    <section class="content">
-        <div class="card">
-            <h3>HTML</h3>
-            <p>Bahasa dasar untuk membuat struktur website.</p>
+<!-- CONTENT -->
+<main class="container">
+    <article class="news-card">
+        <img src="https://via.placeholder.com/900x400" alt="Berita Teknologi">
+        <div class="news-content">
+            <span class="category">Teknologi</span>
+            <h2>Artificial Intelligence Mengubah Dunia Pendidikan</h2>
+            <p class="meta">Medan — 29 Januari 2026 | Oleh Redaksi</p>
+            <p class="excerpt">
+                Pemanfaatan Artificial Intelligence (AI) di sektor pendidikan
+                semakin luas, mulai dari sistem pembelajaran adaptif hingga
+                evaluasi siswa berbasis data.
+            </p>
+            <a href="#" class="read-more">Baca Selengkapnya</a>
         </div>
+    </article>
+</main>
 
-        <div class="card">
-            <h3>CSS</h3>
-            <p>Digunakan untuk mempercantik tampilan website.</p>
-        </div>
-
-        <div class="card">
-            <h3>Responsive</h3>
-            <p>Tampilan menyesuaikan ukuran layar.</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 MyWebsite | Dibuat dengan ❤️</p>
-    </footer>
+<!-- FOOTER -->
+<footer class="footer">
+    <p>&copy; 2026 Media Nusantara. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
